@@ -26,7 +26,7 @@
 						<td>${data.prdCompany }</td>
 						<td>${data.prdStock }</td>
 						<td><fmt:formatDate pattern="yyyy-MM-dd" value="${data.prdDate}" /></td>
-						<td><img src="<c:url value='/images/${data.prdNo }.png'/>" width="30" height="20"></td>
+						<td><img src="<c:url value='/images/${data.prdNo }.PNG'/>" width="30" height="20"></td>
 					</tr>
 				</c:forEach>
 			</table> <br><br>
